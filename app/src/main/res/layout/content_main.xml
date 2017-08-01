@@ -11,23 +11,54 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Favor ingrese sus datos"
+        android:id="@+id/dts"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:layout_below="@id/dts"
+        android:text="Ingrese su correo electrónico"
+        android:id="@+id/inputbtn"/>
+
+
+        <EditText
+            android:id="@+id/campo_texto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/inputbtn"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:hint="usuario@correo.com" />
+
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/text_margin"
-        android:text="Favor ingrese sus datos" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:text="Ingrese su correo electrónico" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:text="Ingrese su número de teléfono" />
+        android:layout_below="@id/campo_texto"
+        android:text="Ingrese su número de teléfono"
+        android:id="@+id/tlf"/>
 
+        <EditText
+            android:id="@+id/campo_telefono"
+            android:layout_width="match_parent"
+            android:inputType="phone"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tlf"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:hint="Teléfono" />
+
+</RelativeLayout>
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>
