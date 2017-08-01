@@ -5,10 +5,7 @@
     tools:context="cl.riemsianne.prueba1.EmailFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+
     <Button
         android:id="@+id/contactbtn"
         android:text="Envianos tus datos ahora!"
