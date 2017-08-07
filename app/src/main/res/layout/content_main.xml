@@ -57,7 +57,39 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:hint="Teléfono" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/campo_telefono"
+        android:id="@+id/tiPas"
+        android:layout_marginBottom="8dp"
+        android:layout_margin="16dp"
+        android:text="¿Qué tipo de asesoría necesita?" />
 
+    <RadioGroup
+        android:layout_below="@+id/tiPas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selAse"
+        android:layout_marginBottom="16dp"
+        android:paddingLeft="24dp" >
+
+        <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Infraestructura" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desarrollo" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Colaboración" />
+
+    </RadioGroup>
 </RelativeLayout>
     </LinearLayout>
 
