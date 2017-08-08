@@ -13,12 +13,14 @@
         android:id="@+id/contactbtn"
         android:layout_below="@+id/chBox"
         android:text="Envianos tus datos ahora!"
+        android:padding="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
   <CheckBox
       android:id="@+id/chBox"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
+      android:padding="30dp"
       android:text="¿Has revisado tus datos correctamente?"/>
 
     </RelativeLayout>

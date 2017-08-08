@@ -28,7 +28,7 @@
                 android:layout_height="match_parent"
                 android:background="@android:color/darker_gray"
                 android:scaleType="centerCrop"
-                android:src="@mipmap/img_serv1" />
+                android:src="@mipmap/img_as_inf" />
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"

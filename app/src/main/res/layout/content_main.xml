@@ -17,13 +17,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:text="Favor ingrese sus datos"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"
+        android:layout_margin="12dp"
+        android:text="Asesorías Informáticas"
         android:id="@+id/dts"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
+        android:layout_margin="8dp"
+        android:textSize="15dp"
         android:layout_below="@id/dts"
         android:text="Ingrese su correo electrónico"
         android:id="@+id/inputbtn"/>
@@ -43,8 +46,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
+        android:layout_margin="8dp"
         android:layout_below="@id/campo_texto"
+        android:textSize="15dp"
         android:text="Ingrese su número de teléfono"
         android:id="@+id/tlf"/>
 
@@ -56,14 +60,15 @@
             android:layout_below="@id/tlf"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:hint="Teléfono" />
+            android:hint="+56 9 " />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/campo_telefono"
         android:id="@+id/tiPas"
         android:layout_marginBottom="8dp"
-        android:layout_margin="16dp"
+        android:layout_margin="8dp"
+        android:textSize="15dp"
         android:text="¿Qué tipo de asesoría necesita?" />
 
     <RadioGroup
@@ -87,7 +92,12 @@
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Colaboración" />
+            android:text="Cloud Computing" />
+
+        <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android" />
 
     </RadioGroup>
 </RelativeLayout>
